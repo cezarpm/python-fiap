@@ -1,14 +1,6 @@
-valor_produto1 = int(input("Digite o valor do produto 1: "))
-valor_produto2 = int(input("Digite o valor do produto 2: "))
-valor_produto3 = int(input("Digite o valor do produto 3: "))
-valor_produto4 = int(input("Digite o valor do produto 4: "))
+valor_cotacao = float(input("Digite o valor da cotação atual: "))
+valor_dolares = float(input("Digite um valor em dólar: "))
 
-valor_total =  valor_produto1 + valor_produto2 + valor_produto3 + valor_produto4
+valor_reais = valor_cotacao * valor_dolares
 
-print("O valor total em reais é: R$" , valor_total)
-
-valor_pago = int(input("Digite o valor a ser pago: "))
-
-valor_troco =  valor_pago - valor_total  
-
-print("O valor do troco é", valor_troco)
+print("O valor em reais é R$" , valor_reais)
