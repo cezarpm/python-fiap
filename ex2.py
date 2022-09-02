@@ -1,4 +1,4 @@
-print("Calculadora de área do quadrado")
+print("Calculadora da área do quadrado")
 
 lado = int(input("Digite o valor do lado do quadrado: "))
 

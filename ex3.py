@@ -1,4 +1,4 @@
-print("Calculadora de área do triângulo")
+print("Calculadora da área do triângulo")
 
 base = int(input("Digite o valor da base: "))
 
