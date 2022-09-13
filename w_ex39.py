@@ -1,9 +1,14 @@
-numero_final = 100
-numero_atual = 0
-resultado = 0
+n = 30
+i = 0
+v1 = 0
+v2 = 1
 
-while(numero_atual <= numero_final):
-  resultado =  resultado + numero_atual
-  numero_atual = numero_atual + 1
-
-print(resultado)
+while (i < n):
+    if (i <= 1):
+        Next = i
+    else:
+        Next = v1 + v2
+        v1 = v2
+        v2 = Next
+    print(Next)
+    i = i + 1
